@@ -28,11 +28,18 @@
         "leafs/logger": "*",
         "leafs/cors": "*",
         "leafs/auth": "*",
-        "leafs/db": "*"
+        "leafs/db": "*",
+        "leafgram/telegram-bot-api": "dev-main"
     },
     "require-dev": {
         "fakerphp/faker": "^1.16"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/leafgram/telegram-bot-api"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Lib\\": "lib/",

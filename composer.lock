@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a6c2e45c329400db648294ae456255d5",
+    "content-hash": "0f1370b84437946311face6fb5a5d0d1",
     "packages": [
         {
             "name": "carbonphp/carbon-doctrine-types",
@@ -1238,6 +1238,59 @@
                 "source": "https://github.com/laravel/framework"
             },
             "time": "2022-04-14T13:47:10+00:00"
+        },
+        {
+            "name": "leafgram/telegram-bot-api",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/leafgram/telegram-bot-api.git",
+                "reference": "aa972e42844c9af06f3ec0732903568ecde9aa48"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/leafgram/telegram-bot-api/zipball/aa972e42844c9af06f3ec0732903568ecde9aa48",
+                "reference": "aa972e42844c9af06f3ec0732903568ecde9aa48",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.2"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Leafgram\\TelegramBotApi\\": "app/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Javlonbek Tuychiyev",
+                    "email": "president7566@gmail.com",
+                    "homepage": "https://github.com/president-tuychiyev",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "A lightweight PHP MVC framework for rapid API development.",
+            "keywords": [
+                "api",
+                "bot",
+                "framework",
+                "leaf",
+                "leaf api",
+                "leafPHP",
+                "leafgram",
+                "mvc",
+                "telegram"
+            ],
+            "support": {
+                "source": "https://github.com/leafgram/telegram-bot-api/tree/main",
+                "issues": "https://github.com/leafgram/telegram-bot-api/issues"
+            },
+            "time": "2024-05-21T20:03:32+00:00"
         },
         {
             "name": "leafs/aloe",
@@ -4344,7 +4397,8 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "leafs/aloe": 20,
-        "leafs/mvc-core": 20
+        "leafs/mvc-core": 20,
+        "leafgram/telegram-bot-api": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
